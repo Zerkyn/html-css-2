@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #555555;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 900px
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-footer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.box {
+    background-color: darkgrey;
+    height: 1000px;
+    width: 200px;
+}
